@@ -1,5 +1,6 @@
 
 import "@fontsource/outfit";
+import lapImg from "../assets/lap-img.jpg";
 const About = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const About = () => {
             <div className="about-img-box  flex justify-center items-center">
               <img
                 className="about-image border-1 "
-                src="./lap-img.jpg"
+                src={lapImg}
                 alt="Developer Story"
               />
             </div>
