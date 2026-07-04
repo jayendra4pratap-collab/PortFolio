@@ -24,7 +24,7 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">Connect</h2>
             <div className="flex gap-6 mt-2 text-2xl">
               <a
-                href=""
+                href="https://github.com/jayendra4pratap-collab/PortFolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#00d9FF] transition duration-300"
@@ -34,7 +34,7 @@ const Footer = () => {
 
               <a
                 href=""
-                target="_blank"
+                target=""
                 rel="noopener noreferrer"
                 className="hover:text-[#00d9FF] transition duration-300"
               >
@@ -42,7 +42,7 @@ const Footer = () => {
               </a>
 
               <a
-                href=""
+                href="https://www.instagram.com/itss_jayendra/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#00d9FF] transition duration-300"

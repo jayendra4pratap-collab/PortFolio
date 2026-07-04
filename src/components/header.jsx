@@ -1,13 +1,23 @@
-import { FiMoon, FiSun } from "react-icons/fi";
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+
+
+import { NavLink ,useNavigate} from "react-router-dom";
+
+import { FiMoon} from "react-icons/fi";
 
 function Header() {
-    const [DarkMode, setDarkMode] = useState(true);
+    const navigate = useNavigate();
+    
   return (
     <nav className="navigation bg-gray-900 text-white p-4 inline-flex w-screen">
-      <p className="heading text-3xl font-bold heading ">Jayendra</p>
-      <p className="dev text-2xl font-bold-5 mt-1">.dev</p>
+      <div
+        className="flex cursor-pointer"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        <p className="heading text-3xl font-bold heading ">Jayendra</p>
+        <p className="dev text-2xl font-bold-5 mt-1 ">.dev</p>
+      </div>
       <ul className="flex gap-10 mt-1 ml-auto text-lg ">
         <li>
           <NavLink
@@ -60,13 +70,11 @@ function Header() {
           </NavLink>
         </li>
       </ul>
+
       <button
-        className="text-2xl hover:text-yellow-400 transition justify-center ml-7"
-        onClick={() => {
-          setDarkMode(!DarkMode);
-        }}
+        className="text-2xl hover:text-yellow-400 ml-7"
       >
-        {DarkMode ? <FiMoon /> : <FiSun />}
+        { <FiMoon /> }
       </button>
     </nav>
   );

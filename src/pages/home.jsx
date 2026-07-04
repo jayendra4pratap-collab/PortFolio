@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 import { motion } from "motion/react";
-import { FaArrowRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-//import { LuExternalLink } from "react-icons/lu";
+
 function Home() {
   const name = [..."Jayendra Pratap Singh"];
   const navigate = useNavigate();
@@ -59,7 +58,7 @@ function Home() {
             className="btn bg-[#00d9FF] text-black flex-row"
             onClick={() => navigate("/projects")}
           >
-            View my Work<FaArrowRight className="flex ml-12"></FaArrowRight>
+            View my Work
           </button>
           <button
             className="btn bg-[#010101]"
