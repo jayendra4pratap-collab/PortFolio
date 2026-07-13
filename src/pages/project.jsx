@@ -168,9 +168,9 @@ const Project = () => {
 
               <p className="mt-4 ml-3 mr-3 text-center font-outfit text-[#a1a1a1]">
                 A digital library management application that allows users to
-                add, organize, update, and remove book records while tracking
-                details such as title, author, page count, and reading status
-                through an intuitive interface.
+                add,update, and remove book records while tracking details such
+                as title, author and reading status through an intuitive
+                interface.
               </p>
 
               <div className="flex mt-4 ml-4 gap-2">
