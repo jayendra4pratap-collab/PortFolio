@@ -12,8 +12,7 @@ function App() {
     
   return (
     <div
-    >
-     
+    >  
       <ScrollToTop />
       <Header />
       <Routes>

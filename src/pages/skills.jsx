@@ -2,14 +2,14 @@
 
 const Skills = () => {
    const skills = [
-     { name: "HTML", percentage: 95 },
-     { name: "CSS", percentage: 90 },
-     { name: "JavaScript", percentage: 80 },
+     { name: "HTML", percentage: 85 },
+     { name: "CSS", percentage: 80 },
+     { name: "JavaScript", percentage: 65 },
      { name: "React", percentage: 75 },
      { name: "JAVA", percentage: 85 },
-     { name: "C++", percentage: 95 },
+     { name: "C++", percentage: 90 },
      { name: "C", percentage: 90 },
-     { name: "Flutter", percentage: 80 },
+     { name: "Flutter", percentage: 70 },
    ];
   return (
     <div className="h-auto w-screen flex flex-col items-center justify-center bg-[#0a192f]">
